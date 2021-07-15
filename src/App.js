@@ -1,14 +1,12 @@
 import React from 'react';
-import Aux from './Auxiliary/Auxiliary';
-import ChooseFunnel from './components/chooseFunnel/ChooseFunel';
-// import ChooseThemes from './components/chooseThemes/ChooseThemes';
+
+import Header from './components/Header/Header';
 import './App.css';
 
 const App = (props) => (
-  <Aux>
-    {/* <ChooseThemes /> */}
-    <ChooseFunnel />
-  </Aux>
+  <div>
+    <Header />
+  </div>
 );
 
 export default App;
