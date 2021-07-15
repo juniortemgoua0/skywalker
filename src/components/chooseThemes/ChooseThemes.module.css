@@ -1,0 +1,45 @@
+.themes__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px 30px;
+}
+
+.btn__width {
+  width: 150px;
+}
+
+.tab {
+  display: flex;
+  column-gap: 10px;
+}
+
+.tabcontent {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.hero__box {
+  border: 1px solid brown;
+  border-radius: 1.5rem;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__box:hover {
+  cursor: pointer;
+  background-color: #f8f8f8;
+  opacity: 0.5;
+}
+
+.hero {
+  max-width: 100%;
+}

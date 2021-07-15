@@ -1,0 +1,41 @@
+.funnel__container {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.divider {
+  width: 1px;
+  opacity: 0.8;
+  background-color: #858f96;
+  margin: 0 71px;
+  height: 346px;
+}
+
+.funnel__textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.funnel__textBox button {
+  align-self: center;
+  width: fit-content;
+}
+
+.funnel__tag {
+  padding: 5px;
+  width: 50%;
+  border: 1px solid #0d6efd;
+  align-self: flex-end;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.funnel__textUpper {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
